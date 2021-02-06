@@ -17,15 +17,15 @@ app.post('/email',async(req,res)=>{
       var transporter = nodemailer.createTransport({
           service: 'gmail',
           auth: {
-            user: 'shekhar.ujjawalgroup@gmail.com',
-            pass: 'Qwerty.1234#'
+            user: 'harshsharma2345@gmail.com',
+            pass: 'mpoounzavkzagbiq'
           }
         });
         
         var mailOptions = {
-          from: 'shekhar.ujjawalgroup@gmail.com',
-          to: 'smart1boy2rahul3@gmail.com',
-          subject: 'forget password for login',
+          from: 'harshsharma2345@gmail.com',
+          to: 'shekhar.ujjawalgroup@gmail.com',
+          subject: 'Elan Sector 50 Client Enquiry',
           html: `<div style="height: 100vh;padding: 10px;background-color:rgb(236, 230, 230)">
           <h1 style="color: rgb(14, 14, 22);font-family: fantasty;text-center">New client information</h1>
           <table>
