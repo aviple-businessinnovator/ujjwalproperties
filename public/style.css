@@ -140,7 +140,9 @@ td{
     #footer form{
         display:none !important;
     }
-        
+        #bottom2_img{
+            hieght:200px;
+        }  
 }
 @media (max-width: 300px) {
     .carosel-item {
@@ -198,3 +200,49 @@ td{
     text-decoration: none;
     color: rgba(0, 0, 0, 0.8);
   }
+
+#bottom2 .border:nth-child(1){
+         border-top:4px solid blue !important;
+        
+         border-radius: 10px;
+        }
+        #bottom2 .border i:nth-child(1){
+            color: blue;
+        }
+
+        #bottom2 .border:nth-child(2){
+         border-top:4px solid orange !important;
+        
+         border-radius: 10px !important;
+        }
+        #bottom2 .border i:nth-child(2){
+            color: orange !important;
+        }
+        #bottom2 .border:nth-child(3){
+         border-top:4px solid green !important;
+        
+         border-radius: 10px;
+        }
+        #bottom2 .border i:nth-child(3){
+            color: green;
+        }
+        #bottom2 .border:nth-child(4){
+         border-top:4px solid black !important;
+        
+         border-radius: 10px;
+        }
+        #bottom2 .border i:nth-child(4){
+            color: black;
+        }
+
+        #bottom2 .border:nth-child(1){
+         border-top:4px solid blue !important;
+        
+         border-radius: 10px;
+        }
+        #bottom2 .border i:nth-child(1){
+            color: blue;
+        }
+
+
+      
