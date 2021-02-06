@@ -128,5 +128,5 @@ td{
     #rlogo{
         display: none;
     }
-    #form{display:none;}
+    #form{display:none !important;}
 }
