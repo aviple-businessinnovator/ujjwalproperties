@@ -129,9 +129,7 @@ td{
         display: none;
     }
     #form{display:none !important;}
-    #content{
-     height:100px !important;
-    }
+    #content{overflow:auto}
     #content h5{
         overflow:auto;
         
