@@ -113,7 +113,7 @@ td{
     #partner img{
         margin: 20px 10px;
     }
-    #content h1{
+    #content h1,#content h1 span{
         font-size: 2rem;
     }
     #lower_image{
@@ -139,7 +139,7 @@ td{
     .background_overlay{hieght:1000px;}
     #footer{
     position:relative !important;}
-    #footer from{
+    #footer form{
         display:none !important;
     }
         
