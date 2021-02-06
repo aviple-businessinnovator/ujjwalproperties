@@ -129,4 +129,8 @@ td{
         display: none;
     }
     #form{display:none !important;}
+    #content{
+     height:100px !important;
+    }
+        
 }
