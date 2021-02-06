@@ -114,7 +114,7 @@ td{
         margin: 20px 10px;
     }
     #content h1{
-        font-size: 3rem;
+        font-size: 2rem;
     }
     #lower_image{
         height: 200px !important;
@@ -132,6 +132,15 @@ td{
     #content{
      height:100px !important;
     }
+    #content h5{
+        overflow:auto;
+        
+    }
     .background_overlay{hieght:1000px;}
+    #footer{
+    position:relative !important;}
+    #footer from{
+        display:none !important;
+    }
         
 }
