@@ -134,7 +134,7 @@ td{
         overflow:auto;
         
     }
-    .background_overlay{hieght:1000px;}
+    .background_overlay{height:1000px;}
     #footer{
     position:relative !important;}
     #footer form{
@@ -142,3 +142,59 @@ td{
     }
         
 }
+@media (max-width: 300px) {
+    .carosel-item {
+      width: 100%;
+    }
+  }
+  @media (min-width: 300px) {
+    .carosel-item {
+      width: 50%;
+    }
+  }
+  @media (min-width: 500px) {
+    .carosel-item {
+      width: 33.333%;
+    }
+  }
+  @media (min-width: 768px) {
+    .carosel-item {
+      width: 25%;
+    }
+  }
+  .carosel {
+    position: relative;
+    background-color: #000;
+  }
+  .carosel-inner {
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 0;
+  }
+  .carosel-item {
+    display: inline-block;
+    padding: 10px;
+    background-color: #ffffff;
+}
+
+  .carosel-control {
+    position: absolute;
+    top: 60%;
+    padding: 15px;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 30px;
+    display: inline-block;
+  }
+  .carosel-control-left {
+    left: 15px;
+  }
+  .carosel-control-right {
+    right: 5px;
+  }
+  .carosel-control:active,
+  .carosel-control:hover {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.8);
+  }

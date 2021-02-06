@@ -220,8 +220,21 @@
             </div>
         </div>
     </div>
-
-
+    <h2 class="text-center py-2">Gallery</h2>
+    <div class="carosel" id="carosel1">
+        <a class="carosel-control carosel-control-left " href="#"><i class="fa fa-chevron-left "></i></a>
+        <div class="carosel-inner">
+          <img class="carosel-item" src="Screenshot_10.png" />
+          <img class="carosel-item" src="Screenshot_10.png" />
+          <img class="carosel-item" src="Screenshot_13.png" />
+          <img class="carosel-item" src="Screenshot_10.png" />
+          <img class="carosel-item" src="Screenshot_11.png" />
+          <img class="carosel-item" src="Screenshot_13.png" />
+          
+        </div>
+        <a class="carosel-control carosel-control-right " href="#"><i class="fa fa-chevron-right "></i></a>
+      </div>
+      
     <div class="container py-4">
         <h2 class="text-center py-2">PARTNERS</h2>
         <div class="d-flex container text-center" id="partner">
@@ -285,7 +298,7 @@
         </div>
     </div>
 
-    <div class="containr-fluid bg-dark py-4 border-top-1 fixed-bottom" id="footer">
+    <div class="containr-fluid bg-dark py-1 border-top-1 fixed-bottom" id="footer">
        <form action="" class="border border-dark border-top-0 rounded" style="width: 100%;padding: 20px;height: auto;display: flex;flex-direction: row;" >
           
            
@@ -296,7 +309,7 @@
 
 
         </form>
-  <p class="text-center text-light p-2 bg-dark">Copyright &copy;AVIPL 2021 . All rights reserved .</p>
+        <p class="text-center text-light bg-dark" style="margin-bottom:0rem">Copyright &copy;AVIPL 2021 . All rights reserved .</p>
 
     </div>
   
@@ -327,6 +340,16 @@
 
 
         });
+    </script>
+    <script>
+        $('.carosel-control-right').click(function() {
+      $(this).blur();
+      $(this).parent().find('.carosel-item').first().insertAfter($(this).parent().find('.carosel-item').last());
+    });
+    $('.carosel-control-left').click(function() {
+      $(this).blur();
+      $(this).parent().find('.carosel-item').last().insertBefore($(this).parent().find('.carosel-item').first());
+    });
     </script>
 </body>
 
